@@ -1,0 +1,101 @@
+\documentclass[12pt,a4paper,titlepage,xcolor=dvipsnames,bibliography=totoc, listof=totoc]{scrartcl}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{Preamble}			%	Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Packages:		form/packages
+\include{form/packages}
+
+%	Colors:			form/colors
+\include{form/colors}
+
+%	Format:			form/format
+\include{form/format}
+
+%	Header:			form/header
+\include{form/header}
+
+%	New Commands:	form/newcommands
+\include{form/newcommands}
+
+%	Fancy Section:	form/fancysection
+\include{form/fancysection}
+
+%	Code Style:		form/code
+\include{form/code}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}\label{Begin Document}		%	Begin Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%lge%%%%%%%%%%%%%%
+\include{pages/title}\label{Titlepage}	%	Titlepage
+\cleardoublepage\pdfbookmark{\contentsname}{toc}\tableofcontents
+\newpage \label{Table of Contents}		%	Table of Contents
+
+
+
+%================================================================
+\label{Sec: Scoring}			 % Scoring
+%----------------------------------------------------------------
+\input{pages/intro}
+\newpage
+
+\input{pages/fairness}
+\newpage
+
+\input{pages/boardgroups}
+\newpage
+
+\input{pages/overview}
+\newpage
+
+\input{pages/suggestions}
+\newpage
+
+\input{pages/form_intro}
+\input{pages/form_pair}
+\input{pages/form_team}
+\input{pages/form_individual}
+\newpage
+
+\input{pages/movements/intro}
+\newpage
+\input{pages/movements/awl}
+\newpage
+\input{pages/movements/howell}
+\newpage
+\input{pages/movements/howell_34}
+\newpage
+\input{pages/movements/howell_scissors}
+\newpage
+\input{pages/movements/mitchell_intro}
+\newpage
+\input{pages/movements/mitchell}
+\newpage
+\input{pages/movements/mitchell_crisscross}
+\newpage
+\input{pages/movements/mitchell_extendedhesitation}
+\newpage
+\input{pages/movements/mitchell_hesitation}
+\newpage
+\input{pages/movements/mitchell_rover}
+\newpage
+\input{pages/movements/mitchell_scrambled}
+\newpage
+\input{pages/movements/mitchell_shareandrelay}
+\newpage
+\input{pages/movements/mitchell_skip}
+\newpage
+\input{pages/movements/mitchell_twostanza}
+\newpage
+\input{pages/movements/mitchell_twowayrover}
+\newpage
+\input{pages/movements/web}
+\newpage
+\input{pages/movements/web_bowman}
+\newpage
+\input{pages/movements/web_double}
+\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}\label{End Document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

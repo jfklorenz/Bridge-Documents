@@ -1,0 +1,59 @@
+\documentclass[12pt,a4paper,titlepage,xcolor=dvipsnames,bibliography=totoc, listof=totoc]{scrartcl}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{Preamble}			%	Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Packages:		form/packages
+\include{form/packages}
+
+%	Colors:			form/colors
+\include{form/colors}
+
+%	Format:			form/format
+\include{form/format}
+
+%	Header:			form/header
+\include{form/header}
+
+%	New Commands:	form/newcommands
+\include{form/newcommands}
+
+%	Fancy Section:	form/fancysection
+\include{form/fancysection}
+
+%	Code Style:		form/code
+\include{form/code}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}\label{Begin Document}		%	Begin Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%lge%%%%%%%%%%%%%%
+\include{pages/title}\label{Titlepage}	%	Titlepage
+\cleardoublepage\pdfbookmark{\contentsname}{toc}\tableofcontents
+\newpage \label{Table of Contents}		%	Table of Contents
+
+
+
+%================================================================
+\label{Sec: Forms}			 % Scoring
+%----------------------------------------------------------------
+\input{pages/intro}
+
+\input{pages/format}                    % 2
+\input{pages/format_export}             % 2.1
+\input{pages/format_import}             % 2.1
+
+\input{pages/characters}                % 2.2
+\input{pages/characters_line}           % 2.3
+\input{pages/characters_escape}         % 2.4
+
+\input{pages/gamelayout}                % 3.0
+\input{pages/gamesections}              % 3.1
+\input{pages/tokens}                    % 3.2
+\input{pages/tagpair}                   % 3.3
+\input{pages/identificationsection}     % 3.4
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}\label{End Document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
