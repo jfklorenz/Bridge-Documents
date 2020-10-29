@@ -4,7 +4,7 @@
 
 A collection of documents and designs for everything contract-bridge related.
 
-Name | Content
+Folder | Content
 ---| ---
 Bidding | Document for a bidding system
 Designs | Designs for prints in bridge-clubs
