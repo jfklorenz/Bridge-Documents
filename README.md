@@ -13,15 +13,3 @@ Literatur | Official documents (pdf) from different sources
 Movements | Document for bridge movements
 PBN | Document explaining bridge pbn-files
 Statistics | Document with multiple bridge statistics
-
-
-- [x] Bidding
-- [x] Cheatsheet
-- [x] Designs (for bridge-clubs)
-- [x] Forms
-- [x] Literatur
-- [x] Manual
-- [x] Movements
-- [x] PBN-Files
-- [x] Scoring
-- [x] Statistics
