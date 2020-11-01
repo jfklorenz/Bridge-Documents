@@ -1,5 +1,5 @@
 # Bridge Documents
-![Status](https://img.shields.io/badge/status-release-green) ![GitHub top language](https://img.shields.io/github/languages/top/jfklorenz/Bridge-Documents) ![GitHub](https://img.shields.io/github/license/jfklorenz/Bridge-Documents)
+![Status](https://img.shields.io/badge/status-in%20progress-yellow) ![GitHub top language](https://img.shields.io/github/languages/top/jfklorenz/Bridge-Documents) ![GitHub](https://img.shields.io/github/license/jfklorenz/Bridge-Documents)
 
 A collection of documents and designs for everything contract-bridge related.
 
